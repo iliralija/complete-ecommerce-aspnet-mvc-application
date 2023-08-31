@@ -12,4 +12,8 @@ public class Cinema
     public string Name { get; set; }
 
     public string Description { get; set; }
+    
+    //Relastionships
+
+    public List<Movie> Movies { get; set; }
 }
