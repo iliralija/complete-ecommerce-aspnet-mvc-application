@@ -12,7 +12,7 @@ using eTickets.Data;
 namespace eTickets.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230901004323_Initial")]
+    [Migration("20230901224207_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -105,10 +105,10 @@ namespace eTickets.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("EndTime")
+                    b.Property<DateTime>("EndDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("ImageURl")
+                    b.Property<string>("ImageURL")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -125,7 +125,7 @@ namespace eTickets.Migrations
                     b.Property<int>("ProducerId")
                         .HasColumnType("integer");
 
-                    b.Property<DateTime>("StartTime")
+                    b.Property<DateTime>("StartDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
