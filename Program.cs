@@ -1,10 +1,20 @@
 using eTickets.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var Configuration = builder.Configuration;
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<AppDbContext>();
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    builder.Services.AddDbContext<AppDbContext>(options =>
+    {
+        options.UseNpgsql(Configuration.GetConnectionString("PostgreSQLConnection"));
+    });
+});
+
 
 var app = builder.Build();
 
