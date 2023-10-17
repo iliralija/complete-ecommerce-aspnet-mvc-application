@@ -22,6 +22,17 @@
       <Compile Remove="Migrations\20231016075325_dataUpdate.Designer.cs" />
       <Compile Remove="Migrations\20231016074525_initial2.cs" />
       <Compile Remove="Migrations\20231016074525_initial2.Designer.cs" />
+      <Compile Remove="Views\Actors\index2.cshtml.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Views\Actors\index.cshtml" />
+      <Content Remove="Views\Actors\index1.cshtml" />
+      <Content Remove="Views\Actors\index2.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\Actors\" />
     </ItemGroup>
 
 </Project>
