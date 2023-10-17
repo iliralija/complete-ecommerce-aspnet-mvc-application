@@ -12,8 +12,16 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
       <PackageReference Include="Npgsql" Version="8.0.0-preview.4" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Migrations\20231016075325_dataUpdate.cs" />
+      <Compile Remove="Migrations\20231016075325_dataUpdate.Designer.cs" />
+      <Compile Remove="Migrations\20231016074525_initial2.cs" />
+      <Compile Remove="Migrations\20231016074525_initial2.Designer.cs" />
     </ItemGroup>
 
 </Project>

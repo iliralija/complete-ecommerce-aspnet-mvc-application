@@ -72,19 +72,19 @@ public class AppDbInitializer
                     new Actor()
                     {
                         FullName = "Actor 3",
-                        Bio = "This is the Bio of the second actor",
+                        Bio = "This is the Bio of the third actor",
                         ProfilePictureURL = "http://dotnethow.net/images/actors/actor-3.jpeg"
                     },
                     new Actor()
                     {
                         FullName = "Actor 4",
-                        Bio = "This is the Bio of the second actor",
+                        Bio = "This is the Bio of the fourth actor",
                         ProfilePictureURL = "http://dotnethow.net/images/actors/actor-4.jpeg"
                     },
                     new Actor()
                     {
                         FullName = "Actor 5",
-                        Bio = "This is the Bio of the second actor",
+                        Bio = "This is the Bio of the fifth actor",
                         ProfilePictureURL = "http://dotnethow.net/images/actors/actor-5.jpeg"
                     }
                 });
@@ -112,19 +112,19 @@ public class AppDbInitializer
                     new Producer()
                     {
                         FullName = "Producer 3",
-                        Bio = "This is the Bio of the second actor",
+                        Bio = "This is the Bio of the third actor",
                         ProfilePictureURL = "http://dotnethow.net/images/producers/producer-3.jpeg"
                     },
                     new Producer()
                     {
                         FullName = "Producer 4",
-                        Bio = "This is the Bio of the second actor",
+                        Bio = "This is the Bio of the fourth actor",
                         ProfilePictureURL = "http://dotnethow.net/images/producers/producer-4.jpeg"
                     },
                     new Producer()
                     {
                         FullName = "Producer 5",
-                        Bio = "This is the Bio of the second actor",
+                        Bio = "This is the Bio of the fifth actor",
                         ProfilePictureURL = "http://dotnethow.net/images/producers/producer-5.jpeg"
                     }
                 });
@@ -142,8 +142,8 @@ public class AppDbInitializer
                             Description = "This is the Life movie description",
                             Price = 39.50,
                             ImageURL = "http://dotnethow.net/images/movies/movie-3.jpeg",
-                            StartDate = DateTime.Now.AddDays(-10),
-                            EndDate = DateTime.Now.AddDays(10),
+                            StartDate = DateTime.UtcNow.AddDays(-10),
+                            EndDate = DateTime.UtcNow.AddDays(10),
                             CinemaId = 3,
                             ProducerId = 3,
                             MovieCategory = MovieCategory.Documentary
@@ -154,8 +154,8 @@ public class AppDbInitializer
                             Description = "This is the Shawshank Redemption description",
                             Price = 29.50,
                             ImageURL = "http://dotnethow.net/images/movies/movie-1.jpeg",
-                            StartDate = DateTime.Now,
-                            EndDate = DateTime.Now.AddDays(3),
+                            StartDate = DateTime.UtcNow,
+                            EndDate = DateTime.UtcNow.AddDays(3),
                             CinemaId = 1,
                             ProducerId = 1,
                             MovieCategory = MovieCategory.Action
@@ -166,8 +166,8 @@ public class AppDbInitializer
                             Description = "This is the Ghost movie description",
                             Price = 39.50,
                             ImageURL = "http://dotnethow.net/images/movies/movie-4.jpeg",
-                            StartDate = DateTime.Now,
-                            EndDate = DateTime.Now.AddDays(7),
+                            StartDate = DateTime.UtcNow,
+                            EndDate = DateTime.UtcNow.AddDays(7),
                             CinemaId = 4,
                             ProducerId = 4,
                             MovieCategory = MovieCategory.Horror
@@ -178,8 +178,8 @@ public class AppDbInitializer
                             Description = "This is the Race movie description",
                             Price = 39.50,
                             ImageURL = "http://dotnethow.net/images/movies/movie-6.jpeg",
-                            StartDate = DateTime.Now.AddDays(-10),
-                            EndDate = DateTime.Now.AddDays(-5),
+                            StartDate = DateTime.UtcNow.AddDays(-10),
+                            EndDate = DateTime.UtcNow.AddDays(-5),
                             CinemaId = 1,
                             ProducerId = 2,
                             MovieCategory = MovieCategory.Documentary
@@ -190,8 +190,8 @@ public class AppDbInitializer
                             Description = "This is the Scoob movie description",
                             Price = 39.50,
                             ImageURL = "http://dotnethow.net/images/movies/movie-7.jpeg",
-                            StartDate = DateTime.Now.AddDays(-10),
-                            EndDate = DateTime.Now.AddDays(-2),
+                            StartDate = DateTime.UtcNow.AddDays(-10),
+                            EndDate = DateTime.UtcNow.AddDays(-2),
                             CinemaId = 1,
                             ProducerId = 3,
                             MovieCategory = MovieCategory.Cartoon
@@ -202,8 +202,8 @@ public class AppDbInitializer
                             Description = "This is the Cold Soles movie description",
                             Price = 39.50,
                             ImageURL = "http://dotnethow.net/images/movies/movie-8.jpeg",
-                            StartDate = DateTime.Now.AddDays(3),
-                            EndDate = DateTime.Now.AddDays(20),
+                            StartDate = DateTime.UtcNow.AddDays(3),
+                            EndDate = DateTime.UtcNow.AddDays(20),
                             CinemaId = 1,
                             ProducerId = 5,
                             MovieCategory = MovieCategory.Drama
@@ -254,8 +254,6 @@ public class AppDbInitializer
                             ActorId = 5,
                             MovieId = 3
                         },
-
-
                         new Actors_Movies()
                         {
                             ActorId = 2,
