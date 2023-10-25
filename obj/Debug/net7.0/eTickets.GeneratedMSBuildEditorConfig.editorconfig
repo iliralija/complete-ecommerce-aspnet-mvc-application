@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/iliralija/Desktop/Project C#/eTickets
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Actors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/iliralija/Desktop/Project C\#/eTickets/Views/Actors/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL2luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

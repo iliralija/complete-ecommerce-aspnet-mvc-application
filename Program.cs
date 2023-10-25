@@ -1,4 +1,5 @@
 using eTickets.Data;
+using eTickets.Data.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseNpgsql(configuration.GetConnectionString("PostgreSQLConnection"));
 });
+
+// Services Configuration
+builder.Services.AddScoped<IActorService, ActorsService>();
 
 var app = builder.Build();
 
