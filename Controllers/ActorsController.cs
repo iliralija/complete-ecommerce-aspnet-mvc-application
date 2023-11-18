@@ -1,11 +1,11 @@
 using eTickets.Data;
-using eTickets.Data.Services;
-using eTickets.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using eTickets.Data.Services;
+using eTickets.Models;
 
 namespace eTickets.Controllers
 {
@@ -20,10 +20,9 @@ namespace eTickets.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var data = await _service.GetAll();
+            var data = await _service.GetAllAsync();
             return View(data);
         }
-
         //Get: Actors/Create
         public IActionResult Create()
         {
@@ -37,8 +36,17 @@ namespace eTickets.Controllers
             {
                 return View(actor);
             }
-            _service.Add(actor);
+            await _service.AddAsync(actor);
             return RedirectToAction(nameof(Index));
+        }
+        
+        //Get: Actors/Details/1
+        public async Task<IActionResult> Details(int id)
+        {
+            var actorDetails = await _service.GetByIdAsync(id);
+
+            if (actorDetails == null) return View();
+            return View(actorDetails);
         }
     }
 }

@@ -7,13 +7,11 @@ var configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IActorService, ActorsService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseNpgsql(configuration.GetConnectionString("PostgreSQLConnection"));
 });
-
-// Services Configuration
-builder.Services.AddScoped<IActorService, ActorsService>();
 
 var app = builder.Build();
 
