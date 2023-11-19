@@ -29,15 +29,18 @@ public class ActorsService : IActorService
         await _context.SaveChangesAsync();
     }
 
-    public async Task<Actor> UpdateAsync(int id, Actor newActor)
+    public async Task<Actor> UpdateAsync(int id, Actor actor)
     {
-        _context.Update(newActor);
+        actor.ActorId = id;
+        _context.Update(actor);
         await _context.SaveChangesAsync();
-        return newActor;
+        return actor;
     }
 
-    public void Delete(int id)
+    public async Task DeleteAsync(int id)
     {
-        throw new NotImplementedException();
+        var result = await _context.Actors.FirstOrDefaultAsync(n => n.ActorId == id);
+         _context.Actors.Remove(result);
+        await _context.SaveChangesAsync(); 
     }
 }
