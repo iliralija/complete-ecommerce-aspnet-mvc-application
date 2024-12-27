@@ -9,61 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eTickets
 build_property.RootNamespace = eTickets
-build_property.ProjectDir = /Users/iliralija/Desktop/Project C#/eTickets/
+build_property.ProjectDir = C:\Users\user\RiderProjects\complete-ecommerce-aspnet-mvc-application\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/iliralija/Desktop/Project C#/eTickets
+build_property.MSBuildProjectDirectory = C:\Users\user\RiderProjects\complete-ecommerce-aspnet-mvc-application
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Actors/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Actors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Actors/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Actors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Actors/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0RldGFpbHMuY3NodG1s
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Actors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Actors/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0VkaXQuY3NodG1s
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Actors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Actors/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL2luZGV4LmNzaHRtbA==
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Actors/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Cinemas/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2luZW1hcy9pbmRleC5jc2h0bWw=
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Cinemas/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2luZW1hc1xpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Movies/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL2luZGV4LmNzaHRtbA==
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Movies/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Producers/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjZXJzL2luZGV4LmNzaHRtbA==
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Producers/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/iliralija/Desktop/Project C\#/eTickets/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-6o5fuhzo8i
+[C:/Users/user/RiderProjects/complete-ecommerce-aspnet-mvc-application/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oggoba35gg
